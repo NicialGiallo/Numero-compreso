@@ -9,14 +9,14 @@ int main() {
 	cin >> A >> B >> C;
 	
 	if(A<C and C<B) {
-		cout << C << " è compreso tra " << A << " e " << B << endl;
+		cout << C << " Ã¨ compreso tra " << A << " e " << B << endl;
 	}
 	 else if(A>C and C>B) {
-		cout << C << " è compreso tra " << A << " e " << B << endl;
+		cout << C << " Ã¨ compreso tra " << B << " e " << A << endl;
 	}
 	else
 	{
-		cout << C << " non è compreso tra " << A << " e " << B << endl;
+		cout << C << " non Ã¨ compreso tra " << A << " e " << B << endl;
 	}
 	return 0;
 }
